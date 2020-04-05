@@ -1,2 +1,2 @@
 # competetive-code
-methods for solving
+feel free to contribute if you kno any algorithm in any language
