@@ -15,7 +15,7 @@ def sort(list):
     center = []
     right = []
     if len(list) > 1:
-        pivot = lista[0]
+        pivot = list[0]
         for i in list:
             if i < pivot:
                 left.append(i)
@@ -27,6 +27,7 @@ def sort(list):
         return sort(left)+center+sort(right)
     else:
       return list
-
+#Then we print the list before being sorted
 print(myList)
+#And finally the list after being sorted
 print(sort(myList))
