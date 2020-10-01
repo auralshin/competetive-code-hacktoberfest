@@ -1,0 +1,66 @@
+Return Subsets of an array
+Given an integer array (of length n), find and return all the subsets of input array.
+Subsets are of length varying from 0 to n, that contain elements of the array. But the order of elements should remain same as in the input array.
+Note : The order of subsets are not important.
+Input format :
+
+Line 1 : Size of array
+
+Line 2 : Array elements (separated by space)
+
+Sample Input:
+3
+15 20 12
+Sample Output:
+[] (this just represents an empty array, don't worry about the square brackets)
+12 
+20 
+20 12 
+15 
+15 12 
+15 20 
+15 20 12 
+
+Below is the implementation of above approach
+public class solution {
+
+
+	public static int[][] subsets(int input[]) {
+        return subsets(input,0);
+      
+	}
+    
+    public static int[][] subsets(int input[],int firstindex)
+    {
+
+             if(input.length==firstindex)
+           {
+               int subset[][]= {{}};
+               return subset;
+           }
+        
+        int smallans[][]= subsets(input,firstindex+1);
+           int   ans[][] = new int[smallans.length*2][];
+        int k=0;
+        for(int x=0;x<smallans.length;x++)
+        {
+            ans[x]= new int[smallans[x].length];
+          for(int y=0;y<smallans[x].length;y++)
+              ans[x][y]= smallans[x][y];
+            
+             k++;  
+        }
+        for(int x=0;x<smallans.length;x++)
+        {
+            ans[k]= new int[smallans[x].length+1];
+            ans[k][0]=input[firstindex];
+           for(int y=0;y<smallans[x].length;y++)
+           {
+                 ans[k][y+1]=smallans[x][y];
+           }
+            k++;
+        }
+        return ans;
+        
+    }
+}
