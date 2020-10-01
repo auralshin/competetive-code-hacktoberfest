@@ -50,82 +50,13 @@
 - [A book series on JavaScript. @YDKJS on twitter](https://github.com/getify/You-Dont-Know-JS)
 - [A long list of (advanced) JavaScript questions, and their explanations ✨](https://github.com/lydiahallie/javascript-questions)
 
-#### Libraries:
 
-- [jQuery — New Wave JavaScript](https://github.com/jquery/jquery)
-- [React.js](https://github.com/reactjs)
-- [lodash - A modern JavaScript utility library delivering modularity, performance, & extras](https://github.com/lodash/lodash/)
-- [Underscore.js - A utility-belt library for JavaScript](https://github.com/jashkenas/underscore)
-- [Knockout - A JavaScript MVVM (a modern variant of MVC) library](https://github.com/knockout/knockout)
-- [Polymer - library which enables cross-browser support for HTML5 web components](https://github.com/polymer)
-- [Textures.js is a JavaScript library for creating SVG patterns](https://github.com/riccardoscalco/textures)
-- [Lightweight fuzzy-search, in JavaScript](https://github.com/krisk/Fuse)
-- [A practical functional library for JavaScript programmers](https://github.com/ramda/ramda)
-- [A table library that works everywhere](https://github.com/grid-js/gridjs)
-
-#### Frameworks:
-
-- [Angular.js](https://github.com/angular)
-- [Vue.js](https://github.com/vuejs)
-- [Ext JS](https://github.com/sencha)
-- [Backbone.js](https://github.com/jashkenas/backbone/)
-- [Ember.js - A JavaScript framework for creating ambitious web applications](https://github.com/emberjs/ember.js)
-- [Fastify - Fast and low overhead web framework, for Node.js](https://github.com/fastify/fastify)
-- [Alpine - A rugged, minimal framework for composing JavaScript behavior in your markup](https://github.com/alpinejs/alpine)
-- [📊 Cube.js - Open Source Analytics Framework](https://github.com/cube-js/cube.js
 
 ### Python:
 
 - [Cool Python features for machine learning](https://github.com/chiphuyen/python-is-cool)
 - [A collection of Python Scripts made for fun, while exploring Python 🐍](https://github.com/thepushkarp/JFF-Python-Scripts
 
-### Must Must have Chrome-Extensions:
 
-- [Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca)
-- [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb/related)
-- [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg?hl=en)
-- [GitHub Repository Size](https://chrome.google.com/webstore/detail/github-repository-size/apnjnioapinblneaedefcnopcjepgkci?hl=en)
-- [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen?hl=en)
-- [Isometric Contributions](https://chrome.google.com/webstore/detail/isometric-contributions/mjoedlfflcchnleknnceiplgaeoegien)
-- [WhatFont](https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm?hl=en)
-- [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
-- [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
-- [Refined GitHub](https://chrome.google.com/webstore/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf)
-
-### React/React-Native:
-
-- [React-Typescript Cheatsheet](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)
-- [Lint rules related to React & JSX for TSLint](https://github.com/palantir/tslint-react)
-- [🐐 Simple and complete React DOM testing utilities that encourage good testing practices](https://github.com/testing-library/react-testing-library)
-- [React Native Awesome Button](https://github.com/rcaferati/react-native-really-awesome-button)
-- [React Native Awesome Slider](https://github.com/rcaferati/react-awesome-slider)
-- [Simple and complete React DOM testing utilities](https://github.com/testing-library/react-testing-library)
-- [Jest utilities for Styled Components](https://github.com/styled-components/jest-styled-components)
-- [Collection of useful React components](https://github.com/streamich/libreact)
-- [Build forms in React, without the tears 😭](https://github.com/jaredpalmer/formik)
-- [High performance `<canvas>` rendering for React components](https://github.com/Flipboard/react-canvas)
-- [🌊 A flexible and fun JavaScript file upload library](https://github.com/pqina/filepond)
-- [A React-Native datetime-picker for Android and iOS](https://github.com/mmazzarolo/react-native-modal-datetime-picker)
-- [Galio is a beautifully designed, Free and Open Source React Native Framework](https://github.com/galio-org/galio)
-- [A description of the conceptual model of React without implementation burden](https://github.com/reactjs/react-basic)
-- [Recoil - An experimental state management library for React apps](https://github.com/facebookexperimental/Recoil)
-- [The recommended Code Splitting library for React ✂️✨](https://github.com/gregberge/loadable-components)
-- [A draggable and resizable grid layout with responsive breakpoints, for React](https://github.com/STRML/react-grid-layout)
-- [A collection of beautiful and useful React hooks to speed-up your components and hooks development](https://github.com/beautifulinteractions/beautiful-react-hooks)
-
-### Blockchain:
-
-- [A full stack for bitcoin and blockchain-based applications](https://github.com/bitpay/bitcore)
-
-### Interview Questions:
-
-- [Tech interview prep list](https://github.com/fterh/leetcode-curation-topical)
-- [:octocat: A curated awesome list of lists of interview questions. Feel free to contribute! 🎓](https://github.com/MaximAbramchuck/awesome-interview-questions)
-- [101+ coding interview problems](https://github.com/hoanhan101/algo)
-- [🕸 Almost complete answers to "Front-end Job Interview Questions" which you can use to interview potential candidates, test yourself or completely ignore](https://github.com/yangshun/front-end-interview-handbook)
-- [JavaScript interview Questions](https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions)
-- [Data Structures and Algorithms in JavaScript](https://egghead.io/courses/data-structures-and-algorithms-in-javascript)
-- [Pramp - Practice live interviews with peers](https://www.pramp.com/#/)
-- [Coding Interview University](https://github.com/jwasham/coding-interview-university)
 
 ## Happy Learning :)
