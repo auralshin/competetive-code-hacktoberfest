@@ -18,3 +18,27 @@ int main(){
         cout<<majorityElement(a,n)<<endl; // returns -1 if there's no such element with count greater than n/2;
     }
 }
+int selectCandidate(vector<int>& a,int n){
+    int index(0),frequency(1);
+    for(int i=1;i<n;i++){
+        if(a[index]==a[i]){
+            frequency++;
+        }
+        else{
+            frequency--;
+        }
+        if(!frequency){
+            index=i;
+            frequency=1;
+        }
+    }
+    return a[index];
+}
+int majorityElement(vector<int>& a,int n){
+    int requiredCandidate(selectCandidate(a,n));
+    int count(0);
+    for(auto &i:a){
+        if(i==requiredCandidate)count++;
+    }
+    return (count>n/2) ? requiredCandidate:-1;
+}
