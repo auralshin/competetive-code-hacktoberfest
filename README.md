@@ -1,5 +1,6 @@
 
-# COMPETITIVE CODING MASTERIALS :-
+# COMPETITIVE CODING MASTERIALS
+Star This Repo
 
 ### Multiple Platforms:
 
