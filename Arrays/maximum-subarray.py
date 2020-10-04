@@ -6,7 +6,7 @@ def maxSubArraySum(a, size):
        
     for i in range(0, size): 
         max_ending_here = max_ending_here + a[i] 
-        if (max_so_far < max_ending_here): 
+        if (max_so_far  max_ending_here): 
             max_so_far = max_ending_here 
   
         if max_ending_here < 0: 
