@@ -17,5 +17,5 @@ def smallestSumSubarr(arr, n):
       
 arr = [3, -4, 2, -3, -1, 7, -5] 
 n = len(arr) 
-print("Smallest sum: ", smallestSumSubarr(arr, n)) 
+print(smallestSumSubarr(arr, n))
   
