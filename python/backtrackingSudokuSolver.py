@@ -22,6 +22,18 @@ def is_valid(b, movement, position):
                 return False
     return True    
 
+def print_board(b):
+    for i in range(len(b)):
+        if i % 3 == 0 and i != 0:
+            print("- - - - - - - - - - - - - ") # print a line to separate box
+        for j in range(len(b[0])):
+            if j % 3 == 0 and j != 0:
+                print(" | ", end="")
+            if j == 8:
+                print(b[i][j])
+            else:
+                print(str(b[i][j]) + " ", end="")
+
 def main(b):
     piece = find_empty(b)
     if piece:
@@ -50,7 +62,7 @@ if __name__ == '__main__':
         [1,2,0,0,0,7,4,0,0],
         [0,4,9,2,0,6,0,0,7]
     ]
-    print(board)
-    print('---------------------SOLVED-----------------')
+    print_board(board)
+    print('\n---------------------SOLVED BOARD-----------------\n')
     main(board)
-    print(board)
+    print_board(board)
