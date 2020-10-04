@@ -1,6 +1,6 @@
 
 # COMPETITIVE CODING MASTERIALS
-Star This Repo
+Star This Repo and do check my other repos, there are some cool stuff you would like.
 
 ### Multiple Platforms:
 
