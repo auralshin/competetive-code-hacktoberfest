@@ -35,7 +35,8 @@ elif x == 1:
     print("Enter the number of points you want play for: ")
     points = int(input())
     while player_score < points and computer_score < points:
-        print(f"computer score = {computer_score}\t {player1} score = {player_score}")
+        print(
+            f"computer score = {computer_score}\t {player1} score = {player_score}")
         print("Rock 👊\n")
         print("Paper 🤚\n")
         print("Scissor ✌\n")
