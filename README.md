@@ -1,5 +1,11 @@
 
 # COMPETITIVE CODING MASTERIALS
+
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
+
 Star This Repo and do check my other repos, there are some cool stuff you would like.
 
 ### Multiple Platforms:
