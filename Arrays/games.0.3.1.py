@@ -1,5 +1,4 @@
 
-import random
 
 print("Enter the Your name ")
 player1 = input()
