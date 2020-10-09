@@ -1,0 +1,38 @@
+{
+  "1": {
+    "session": "2020-21",
+    "first_name": "Ravi prakash",
+    "last_name": "Shrivastav",
+    "class": "12",
+    "section": "B",
+    "gender": "Male",
+    "father": "Rajesh Kumar",
+    "mother": "Ranjana Kumari",
+    "mobile": "3256897412",
+    "address": "Rajasthan , INDIA"
+  },
+  "2": {
+    "session": "2020-21",
+    "first_name": "sb",
+    "last_name": "rs",
+    "class": "1",
+    "section": "A",
+    "gender": "Male",
+    "father": "sang",
+    "mother": "rih",
+    "mobile": "980546567",
+    "address": "dxd"
+  },
+  "3": {
+    "session": "2016-17",
+    "first_name": "Venkata",
+    "last_name": "Sreeram",
+    "class": "12",
+    "section": "A",
+    "gender": "Male",
+    "father": "Rmesh",
+    "mother": "Savithri",
+    "mobile": "9573979038",
+    "address": "Tenali, Andhra Pradesh"
+  }
+}
