@@ -1,10 +1,11 @@
 # @author: Jorge Reyes
 
 """
-The binary search algorithm works by splitting the array recursively. Keep in mind that this algorithm needs an already sorted array.
+The binary search algorithm works by splitting the array recursively.
 """
 
 def binarySearch(arr, n):
+    arr.sort()
     # Base Case
     if (len(arr) == 1 and n != arr[0]):
         return False

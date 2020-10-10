@@ -1,0 +1,32 @@
+
+//C/C++ Program for Tower oh hanoi
+#include <iostream>
+
+using namespace std;
+
+void tower_of_hanoi(int n,char source,char aux,char dest)
+{
+    //If height of tower is 1 or tower has 1 disk
+  if (n==1)
+  {
+  cout<<source<<" to "<<dest<<endl;
+  return;
+  }
+  //Recursion to put n-1 disks from source to aux using dest
+  tower_of_hanoi(n-1,source,dest,aux);
+  cout<<source<<" to "<<dest<<endl;
+  //Recursion to put n-1 disks from aux to dest using source
+  tower_of_hanoi(n-1,aux,source,dest);
+}
+
+//main 
+int main()
+{
+  int n;
+  cout<<"Enter the height of tower:";
+  cin>>n;
+  //Function call Tower of Hanoi
+  tower_of_hanoi(n,'a','b','c');
+
+return 0;
+}
