@@ -6,4 +6,5 @@
 
 
 ### Type "play" to play the game, "exit" to quit:
+:)
 
