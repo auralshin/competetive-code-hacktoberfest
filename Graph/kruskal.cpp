@@ -1,10 +1,13 @@
 //CPP program to find minimum spanning tree using Kruskal's Algorithm. 
 //Here we use Union-Find Algorithm to check whether cycle is formed or not in the graph
 
+
+// fixed compilation errors | fixed by JosepHyv
+// this algorithm is used to for make a MST ( Minimum Spanning Tree )
 #include <bits/stdc++.h>
 
 using namespace std;
-const int MAX = 1e7 + 7;
+const int MAX = 1e6 + 7;
 int parent[MAX];
 
 
@@ -22,10 +25,10 @@ void doUnion(int x, int y)                              //helper method to combi
 {
     int p = findParent(x);
     int q = findParent(y);
-    parent[p] = parent[q];
+    parent[p] = q; // make P parent of q
 }
 
-long long kruskal(pair<long long, pair<int, int> > p[])
+long long kruskal(pair<long long, pair<int, int> > p[], int edges)
 {
     int x, y;
     long long cost, minimumCost = 0;
@@ -46,21 +49,24 @@ long long kruskal(pair<long long, pair<int, int> > p[])
 
 int main()
 {
+    
     int x, y,nodes, edges;
-    long long weight, cost, minimumCost;
-    pair <long long, pair<int, int> > p[MAX];
+    long long weight,minimumCost;
+//    pair <long long, pair<int, int> > p[MAX];  MAX is to large for an static local array
     
     for(int i = 0;i < MAX;++i)
-        id[i] = i;
+        parent[i] = i;
 
     cin >> nodes >> edges;
+    pair <long long, pair<int, int> > p[edges]; // the size  is equal to number of edges
+
     for(int i = 0;i < edges;++i)
     {
         cin >> x >> y >> weight;
         p[i] = make_pair(weight, make_pair(x, y));   //add the weighted edges to the array containing pair of edges
     }
     sort(p, p + edges);                              // Sort the edges in the ascending order
-    minimumCost = kruskal(p);
-    cout << minimumCost << endl;
+    minimumCost = kruskal(p, edges); 
+    cout << minimumCost << "\n";
     return 0;
 }
