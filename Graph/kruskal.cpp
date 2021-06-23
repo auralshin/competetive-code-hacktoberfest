@@ -3,7 +3,7 @@
 
 
 // fixed compilation errors | fixed by JosepHyv
-// this algorithm is used to for make a MST ( Minimum Spanning Tree )
+// this algorithm is also used to do an MST ( Minimum Spanning Tree )
 #include <bits/stdc++.h>
 
 using namespace std;
